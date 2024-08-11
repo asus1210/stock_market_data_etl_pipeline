@@ -61,7 +61,7 @@ This project involves an ETL (Extract, Transform, Load) pipeline for processing 
 
 ## Visual Representation
 
-![ETL Pipeline](![image.png](https://github.com/asus1210/stock_market_data_etl_pipeline/blob/main/project%20image.png))
+![ETL Pipeline](https://github.com/asus1210/stock_market_data_etl_pipeline/blob/main/project%20image.png)
 
 ## Key Features
 
