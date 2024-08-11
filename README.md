@@ -10,9 +10,11 @@ This project involves an ETL (Extract, Transform, Load) pipeline for processing 
 
 ## Project Structure
 
-- **Data Source:** Historical stock market data downloaded from [Kaggle](https://www.kaggle.com/datasets/jacksoncrow/stock-market-dataset).  
+- **Data Source:** Historical stock market data downloaded from [Kaggle](https://www.kaggle.com/datasets/jacksoncrow/stock-market-dataset).
+
   This dataset contains historical daily prices for all tickers currently trading on NASDAQ.  
   It contains prices up to April 1, 2020.
+  > Summary 8050 files 56.4k columns 2.75 GB of Data
   
 - **Data Files:** The data consists of multiple CSV files representing daily prices of Nasdaq-traded stocks and ETFs.
 
@@ -52,6 +54,7 @@ This project involves an ETL (Extract, Transform, Load) pipeline for processing 
 
 3. **Load Data:** 
    - The transformed data is loaded into a PostgreSQL database using SQLAlchemy.
+   - Used sql `\copy` command to insert bulk data into table 
    - **Database Schema:**
      - Designed to support efficient queries on stock data.
      - Partitioned table created to store data efficiently.
