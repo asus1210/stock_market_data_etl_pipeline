@@ -1,7 +1,3 @@
-Certainly! Here's your updated README with proper Markdown formatting:
-
----
-
 # Stock Market Data ETL Pipeline
 
 ## Overview
