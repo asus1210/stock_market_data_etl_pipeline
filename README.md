@@ -4,6 +4,10 @@
 
 This project involves an ETL (Extract, Transform, Load) pipeline for processing historical stock market data. The data is extracted from CSV files, transformed using the Polars library, and then loaded into a PostgreSQL database using SQLAlchemy. This pipeline efficiently handles large datasets and is designed to be scalable and flexible.
 
+## Project Presentation
+
+![ETL Pipeline](https://github.com/asus1210/stock_market_data_etl_pipeline/blob/main/project%20image.png)
+
 ## Project Structure
 
 - **Data Source:** Historical stock market data downloaded from [Kaggle](https://www.kaggle.com/datasets/jacksoncrow/stock-market-dataset).  
@@ -58,10 +62,6 @@ This project involves an ETL (Extract, Transform, Load) pipeline for processing 
 - **Polars:** A fast DataFrame library designed to handle large datasets with low memory usage.
 - **SQLAlchemy:** A Python SQL toolkit and Object-Relational Mapping (ORM) library.
 - **PostgreSQL:** An advanced, open-source relational database.
-
-## Visual Representation
-
-![ETL Pipeline](https://github.com/asus1210/stock_market_data_etl_pipeline/blob/main/project%20image.png)
 
 ## Key Features
 
