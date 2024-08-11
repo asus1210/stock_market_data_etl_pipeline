@@ -1,0 +1,1 @@
+\copy public.stocks_statistics_partitioned (statistic, open_price, high, low, close_price, adj_close, volume, stock_year) FROM 'F:\Projects\data engineering\stock_market_kafka\stock_market_analysis_pyspark\data\appl_summary.csv' delimiter ',' CSV HEADER;
